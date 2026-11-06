@@ -1,0 +1,19 @@
+# Local credentials and overrides
+.env
+.env.*
+!.env.example
+# Python and tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+# Generated evaluation artifacts
+results/
+*.log
+.DS_Store
